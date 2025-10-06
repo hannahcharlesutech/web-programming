@@ -202,6 +202,21 @@ nav ul li a.active {
   border-radius: 100%;
   margin-left: 150px;
   }
+@media (max-width: 599px) {
+    nav ul {
+      flex-direction: column; 
+    }
+  
+    nav ul li {
+      flex: none; 
+      width: 100%;
+    }
+  
+    nav ul li a {
+      justify-content: flex-start; 
+      padding: 12px 20px;
+    }
+  }
 /*resume page styles*/
 .flex-container2{
     display: flex;
