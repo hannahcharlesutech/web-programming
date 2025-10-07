@@ -330,6 +330,45 @@ nav ul li a.active {
 #visionmission h3{
     color: #003366;
 }
+*responsive resume*/
+@media (max-width: 599px){
+
+    .content-container{
+        flex-direction: column;
+    }
+
+    .flex-container1, .flex-container2 {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .vertical-line {
+        display: none; /* hide vertical line on mobile */
+    }
+
+    .summarybox, .Employmentbox, .educationbox {
+        padding: 15px;
+    }
+
+    .visionmission {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    footer .footer-container {
+        text-align: center;
+    }
+
+    .socialmedia a {
+        display: block;
+        margin: 5px 0;
+    }
+
+}
+
+
+
+
 /*personality page styles*/
 
 .determinedadaptable-container{
